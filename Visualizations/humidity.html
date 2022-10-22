@@ -1,0 +1,128 @@
+<!-- html tags -->
+
+<!-- single tag -->
+<!DOCTYPE html> <!-- file type -->
+
+<!-- container tag -->
+<html>
+
+<head>
+    <!-- meta: define the character set for files -->
+    <meta charset="UTF-8">
+    <meta name="description" content="create my first website">
+    <meta name="author" content="Xenia">
+    <meta name="keywords" content="HTML, tutorial">
+    <!-- control your webside in different website -->
+    <meta name="viewpoint" content="width = divcie-width, initial-scale = 1.0">
+    <!-- title tag: defining info about th HTML document -->
+    <title>Xenia's Web Homework</title>
+    <!--    css link-->
+    <link rel="stylesheet" type= "text/css" href="../assets/css/hw11.css">
+    <!--    boosttrappint link-->
+    <link rel="stylesheet" type= "text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <!--use the boostraping navbar template: https://getbootstrap.com/docs/4.0/components/navbar/-->
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top"  style = "padding: 0px 16px">
+            <a class="navbar-brand" href="../landing.html" style="color:white">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="temperature.html">VS. Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">VS. Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">VS. Cloudiness</a>
+                            <a class="dropdown-item" href="windspeed.html">VS. Wind Speed</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../comparison.html">Comparison</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container2">
+        <div class="row">
+            <div class="col-md-12"  id = "space1">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+
+            <div class="col-md-6">
+                <div class="col-md-12">
+                    <h3>Summary: Latitude vs. Humidity </h3>
+                    <hr>
+                    <img src="../assets/images/Fig2.png" width=100% alt="temperature">
+                    <p>From this graph, we know that the latitude and humidity don't really has obvious relationship. Most city humidity are from 60% to 100%. When the latitude is between -20 and 40, sometimes the humidity will drop to around 20%.</p>
+                </div>
+            </div>
+
+
+
+            <!--           visualization-->
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <h3>Visualizations</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3 col-md-6">
+                            <a href="temperature.html"><img class="img-thumbnail" src="../assets/images/Fig1.png"></a>
+                        </div>
+
+                        <div class="col-3 col-md-6">
+                            <a href="humidity.html"><img class="img-thumbnail" src="../assets/images/Fig2.png"></a>
+                        </div>
+
+                        <div class="col-3 col-md-6">
+                            <a href="cloudiness.html"><img class="img-thumbnail" src="../assets/images/Fig3.png"></a>
+                        </div>
+
+                        <div class="col-3 col-md-6">
+                            <a href="windspeed.html"><img class="img-thumbnail" src="../assets/images/Fig4.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12"  id = "space1">
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

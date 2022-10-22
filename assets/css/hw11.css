@@ -1,0 +1,158 @@
+
+.container2{
+  background-color: lightgray;
+}
+
+.col-md-12{
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom:40px;
+  padding-left: 30px;
+}
+
+
+.navbar{
+  text-align: right;
+  padding-top:0px;
+  padding-bottom: 0px;
+  padding-right:40px;
+  background-color:white;
+  border: no;
+}
+
+.dropdown-menu {
+  margin: 0;
+}
+
+.nav-item.dropdown.show {
+  background-color: white;
+}
+
+a.navbar-brand{
+  padding: 5px;
+  border: 0;
+  background-color: lightseagreen;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+
+/*a.navbar-brand{*/
+/*  margin-left: 5px;*/
+/*
+  padding: 3px 3px 6px 6px;
+    
+*/
+/*
+  background-color: lightseagreen;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white 
+*/
+/*}*/
+
+
+/*paragraph*/
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40 px;
+    padding:10px;
+    text-align: justify;
+}
+
+/*title*/
+h3{
+    color:lightseagreen;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    padding: 5px;
+    font-weight: bold;
+}
+
+h6{
+    color:lightseagreen;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+/*image*/
+img{
+    float: left;
+}
+
+/*
+.col-3.col-md-6{
+  padding-left:15px;
+  padding-right:15px;
+    
+}
+*/
+
+/*
+.img2{
+  width:100px;
+  height: 100px;
+  padding:5px;
+  margin:5px;
+  border: no;
+}
+*/
+a .img-thumbnail{
+    border: no;
+}
+
+table tr:first-child td{
+    border-top: none;
+}
+
+/*
+table{
+            width:100%;
+            margin-bottom:1em;
+            border-collapse: collapse;
+        }
+        th{
+            font-weight:bold;
+            background-color:#ddd;
+        }
+        th,
+        td{
+            padding:0.5em;
+            border:1px solid #ccc;
+        }
+*/
+
+#space1{
+    background-color: lightgray;
+}
+
+
+@media(max-width:575px){
+  .navbar.bg-white{
+      background-color: lightseagreen!important;    
+  }
+
+  .navbar-collapse{
+      background-color: lightseagreen;
+  }
+  .navbar{
+      padding:inherit;
+  }
+
+  .col-md-12{
+      background-color: white;
+
+    }
+      /*
+*/
+/*  padding-left: 30px;*/
+    #space1{
+        background-color: white;
+    }
+}
+
+
+
